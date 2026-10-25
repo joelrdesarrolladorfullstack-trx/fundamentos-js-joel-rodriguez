@@ -8,3 +8,5 @@
 | 23/10 | Ej. 2 | Claude | Le pedí el pseudocódigo del ejercicio de descuento y envío, sin código | Me dio el pseudocódigo por pasos y preguntas sobre los operadores y los límites | Lo traduje yo a JavaScript |
 
 | 24/10 | Ej. 3 | Claude | Le pedí el pseudocódigo y explicaciones del ejercicio del catálogo, sin código | Me explicó los arrays paralelos y los patrones contador, máximo y acumulador con pseudocódigo | Lo traduje yo a JavaScript |
+
+| 24/10 | Ej. 4 | Claude | Le pedí el pseudocódigo con diagramas del ejercicio de buscar, sin código | Me explicó la búsqueda con la posición -1 y me dio un diagrama de flujo | Lo traduje yo a JavaScript |
