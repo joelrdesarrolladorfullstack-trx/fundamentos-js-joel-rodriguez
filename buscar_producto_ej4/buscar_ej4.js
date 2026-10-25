@@ -12,3 +12,8 @@ for(let i = 0; i < productos.length; i++) {
     posicion = i;
     }
 }
+    if (posicion === -1){
+    console.log(`${buscador} posicion -1 no existe en el catalogo`);
+} else {
+    console.log(`${buscador} esta en la posicion ${posicion} precio: ${precios[posicion].toFixed(2)} €.  stock: ${stock[posicion]}`);
+}
