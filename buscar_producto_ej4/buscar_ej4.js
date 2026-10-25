@@ -6,3 +6,9 @@ const stock = [100,10,30,0,1000];
 
 let buscador = "webcam";
 let posicion = -1;
+
+for(let i = 0; i < productos.length; i++) {
+    if(productos[i] === buscador){
+    posicion = i;
+    }
+}
