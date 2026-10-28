@@ -47,10 +47,24 @@ function productoMasCaro(productos,precios){
 }
 const masCaro = productoMasCaro(productos,precios);
 
+function valorInventario(precios ,stock){
+    let total = 0
+        for (let i = 0; i < precios.length; i++)
+    {
+    total += precios[i] * stock[i];
+    }
+        return  total;
+    
+}
 
-
-
-
+function buscarProducto(productos,nombre){
+    for(let i = 0; i < productos.length; i++){
+        if(productos[i] === nombre){
+            return i;
+        }
+    }
+    return -1;
+}
 
 
 console.log(calcularImporteLinea(189, 2));
@@ -71,6 +85,8 @@ console.log("-------------------------")
 console.log(productoMasCaro(["teclado","raton","monitor","auriculares","webcam"],[45.99,19.99,189.00,59.95,34.50]));
 console.log(masCaro)
 console.log("-------------------------")
-
-
+console.log(valorInventario(precios, stock));
+console.log(valorInventario([2, 10], [3,1]));
 console.log("-------------------------")
+console.log(buscarProducto(productos, "monitor"));
+console.log(buscarProducto(productos, "altavoz"));
